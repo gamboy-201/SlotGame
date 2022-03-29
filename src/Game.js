@@ -50,7 +50,7 @@ class Game extends Phaser.GameObjects.Container{
                 thisObj.reels[this.stopIndex].stopSpinReel();
                 this.stopIndex++;
             }
-        },Math.floor(Math.random() * 500)+500)
+        },Math.floor(Math.random() * 200)+100)
     }
 
     checkForWin(){
